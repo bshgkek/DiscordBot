@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# json
+authentication.json
+config.json
+
+# todo
+todo.todo
