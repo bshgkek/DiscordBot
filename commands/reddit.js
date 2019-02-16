@@ -1,4 +1,6 @@
-const Reddit = require('snoowrap');
+// todo: WIP
+
+// const Reddit = require('snoowrap');
 const Discord = require('discord.js');
 
 exports.run = (bot, msg, after) => {
@@ -16,19 +18,19 @@ exports.run = (bot, msg, after) => {
     return;
   }
 
-  const reddit = new Reddit({
-    userAgent: 'discordbot:v1 (by /u/heycanyouuhh)',
-    clientId: bot.auth.redditID,
-    clientSecret: bot.auth.redditSecret,
-    // refreshToken: 'put your refresh token here'
-    username: bot.auth.redditUsername,
-    password: bot.auth.redditPassword,
-  });
+  // const reddit = new Reddit({
+  //   userAgent: 'discordbot:v1 (by /u/heycanyouuhh)',
+  //   clientId: bot.auth.redditID,
+  //   clientSecret: bot.auth.redditSecret,
+  //   // refreshToken: 'put your refresh token here'
+  //   username: bot.auth.redditUsername,
+  //   password: bot.auth.redditPassword,
+  // });
 
-  reddit
-    .getSubreddit('askreddit')
-    .getWikiPage('bestof')
-    .content_md.then(console.log);
+  // reddit
+  //   .getSubreddit('askreddit')
+  //   .getWikiPage('bestof')
+  //   .content_md.then(console.log);
 };
 
 exports.info = {
