@@ -1,0 +1,28 @@
+{
+  "name": "DiscordBot",
+  "version": "0.1.1",
+  "description": "Bot for Discord app",
+  "readme": "README.md",
+  "maintainers": [],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bshgkek/DiscordBot.git"
+  },
+  "license": "GPL-2.0",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "feedparser": "1.1.x",
+    "html-to-text": "1.5.x",
+    "imdb-api": "^3.0.0",
+    "nock": "1.7.x",
+    "npm": "",
+    "querystring": "0.2.x",
+    "sinon": "1.14.x",
+    "snoowrap": "^1.13.0",
+    "twitter": "^1.7.0",
+    "underscore": "1.8.x",
+    "weather-js": "^2.0.0"
+  },
+  "main": "bot.js"
+}
